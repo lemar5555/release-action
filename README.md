@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: lemar5555/release-action@master
+    - uses: lemar5555/release-action@main
       env:
         GITHUB_TOKEN ${{ secrets.GITHUB_TOKEN }}
       with:
