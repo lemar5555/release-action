@@ -1,16 +1,13 @@
 ## GitHub Action to Create Releases Based on a Keyword
 The Keyword Releaser will create a release based on the keyword specified in the argument.
 <br>
-<br>
 
 ## Environment Variables
 * `GITHUB_TOKEN` - Required Allows the Action to authenticate with the GitHub API to create the release.
 <br>
-<br>
 
 ### Arguments
 * Required - A single keyword. If the keyword is found in a commit message, a release will be created. Although case is ignored, it's suggested to use a unique, uppercase string like `FIXED`, `READY_TO_RELEASE`, or maybe even `PINEAPPLE`.
-<br>
 <br>
 
 ## Examples
