@@ -2,6 +2,7 @@ FROM alpine
 
 RUN apk add --no-cache \
   bash \
+  py3-setuptools \
   httpie \
   jq && \
   which bash && \
